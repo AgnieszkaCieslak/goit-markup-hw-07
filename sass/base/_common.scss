@@ -1,0 +1,40 @@
+:root {
+    --background-color-primary: #ffffff;
+    --background-color-footer: #2f303a;
+    --background-color-secondary: #f5f4fa;
+    --background-color-button-active: #2196f3;
+    --background-color-button-inactive: #afb1b8;
+    --background-color-icon-footer: rgba(255, 255, 255, 0.1);
+    --background-color-dimness: rgba(47, 48, 58, 0.8);
+    --color-white: #fff;
+    --color-grey: #afb1b8;
+    --color-dark: #212121;
+    --color-black: #000000;
+    --color-blue: #2196f3;
+    --color-dark-grey: #757575;
+    --color-light-grey: rgba(255, 255, 255, 0.6);
+    --color-border: #ececec;
+    --t-duration: 250ms;
+    --t-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  body {
+    font-family: "Roboto";
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: var(--color-dark);
+    background-color: var(--background-color-primary);
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    list-style-type: none;
+  }
