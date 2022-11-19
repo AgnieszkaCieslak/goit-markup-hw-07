@@ -2,8 +2,8 @@
     padding-left: 15px;
     width: 358px;
     height: 50px;
-    color: var(--color-white);
-    background-color: var(--background-color-footer);
+    color: $color-white;
+    background-color: $background-color-footer;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
@@ -11,10 +11,10 @@
     transition-timing-function: var(--t-timing-function);
     transition-property: border-color;
     &:hover{
-      border-color: var(--color-blue);
+      border-color: $color-blue;
     }
     &:focus-within {
-      border: 3px solid var(--color-blue);
+      border: 3px solid $color-blue;
       outline: none;
     }
   }
@@ -26,10 +26,6 @@
   //   outline: none;
   // }
 
-
-
-
-  
   .modal__input-group {
     position: relative;
     margin-bottom: 10px;
@@ -37,29 +33,29 @@
     transition-duration: var(--t-duration);
     transition-timing-function: var(--t-timing-function);
     &:hover{
-      fill: var(--color-blue);
-      border-color: var(--color-blue);
+      fill: $color-blue;
+      border-color: $color-blue;
     }
     &:focus{
-      fill: var(--color-blue);
-      border-color: var(--color-blue);
+      fill: $color-blue;
+      border-color:$color-blue;
     }
     &:focus-within {
-      fill: var(--color-blue);
+      fill: $color-blue;
     }
   }
   .modal__input-group-comment {
     position: relative;
     &:hover {
-      fill: var(--color-blue);
-      border-color: var(--color-blue);
+      fill: $color-blue;
+      border-color: $color-blue;
     }
 &:focus {
-  fill: var(--color-blue);
-  border-color: var(--color-blue);
+  fill: $color-blue;
+  border-color: $color-blue;
 }
 &:focus-within {
-  fill: var(--color-blue);
+  fill: $color-blue;
 }
   }
   // .modal__input-group:hover,
@@ -86,12 +82,12 @@
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     resize: none;
-    outline-color: var(--color-blue);
+    outline-color:$color-blue;
     transition-property: border-color;
     transition-duration: var(--t-duration);
     transition-timing-function: var(--t-timing-function);
 &:hover {
-  border-color: var(--color-blue);
+  border-color: $color-blue;
 }
   }
   // .modal__input-details:hover {

@@ -1,5 +1,5 @@
 .blue {
-    color: var(--color-blue);
+    color: $color-blue;
   }
   .dark {
     color: inherit;
@@ -8,17 +8,17 @@
     transition-timing-function: var(--t-timing-function);
   }
   .dark-grey {
-    color: var(--color-dark-grey);
-    fill: var(--color-dark-grey);
+    color: $color-dark-grey;
+    fill: $color-dark-grey;
     transition-property: fill, color;
     transition-duration: var(--t-duration);
     transition-timing-function: var(--t-timing-function);
   }
   .white {
-    color: var(--color-white);
+    color: $color-white;
   }
   .light-grey {
-    color: var(--color-light-grey);
+    color: $color-light-grey;
     transition-property: fill, color;
     transition-duration: var(--t-duration);
     transition-timing-function: var(--t-timing-function);
@@ -30,6 +30,6 @@
   .dark:focus,
   .dark-grey:focus,
   .light-grey:focus {
-    color: var(--color-blue);
-    fill: var(--color-blue);
+    color: $color-blue;
+    fill: $color-blue;
   }

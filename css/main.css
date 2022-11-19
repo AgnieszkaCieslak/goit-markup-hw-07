@@ -7,7 +7,7 @@
 }
 
 .blue {
-  color: var(--color-blue);
+  color: #2196f3;
 }
 
 .dark {
@@ -21,8 +21,8 @@
 }
 
 .dark-grey {
-  color: var(--color-dark-grey);
-  fill: var(--color-dark-grey);
+  color: #757575;
+  fill: #757575;
   -webkit-transition-property: fill, color;
   transition-property: fill, color;
   -webkit-transition-duration: var(--t-duration);
@@ -32,11 +32,11 @@
 }
 
 .white {
-  color: var(--color-white);
+  color: #fff;
 }
 
 .light-grey {
-  color: var(--color-light-grey);
+  color: rgba(255, 255, 255, 0.6);
   -webkit-transition-property: fill, color;
   transition-property: fill, color;
   -webkit-transition-duration: var(--t-duration);
@@ -51,26 +51,11 @@
 .dark:focus,
 .dark-grey:focus,
 .light-grey:focus {
-  color: var(--color-blue);
-  fill: var(--color-blue);
+  color: #2196f3;
+  fill: #2196f3;
 }
 
 :root {
-  --background-color-primary: #ffffff;
-  --background-color-footer: #2f303a;
-  --background-color-secondary: #f5f4fa;
-  --background-color-button-active: #2196f3;
-  --background-color-button-inactive: #afb1b8;
-  --background-color-icon-footer: rgba(255, 255, 255, 0.1);
-  --background-color-dimness: rgba(47, 48, 58, 0.8);
-  --color-white: #fff;
-  --color-grey: #afb1b8;
-  --color-dark: #212121;
-  --color-black: #000000;
-  --color-blue: #2196f3;
-  --color-dark-grey: #757575;
-  --color-light-grey: rgba(255, 255, 255, 0.6);
-  --color-border: #ececec;
   --t-duration: 250ms;
   --t-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -79,8 +64,8 @@ body {
   font-family: "Roboto";
   font-size: 14px;
   letter-spacing: 0.03em;
-  color: var(--color-dark);
-  background-color: var(--background-color-primary);
+  color: #212121;
+  background-color: #ffffff;
 }
 
 h1,
@@ -173,15 +158,15 @@ ul {
 }
 
 .logo--blue {
-  color: var(--color-blue);
+  color: #2196f3;
 }
 
 .logo--black {
-  color: var(--color-black);
+  color: #000000;
 }
 
 .logo--white {
-  color: var(--color-white);
+  color: #fff;
 }
 
 .button {
@@ -190,8 +175,8 @@ ul {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  color: var(--color-white);
-  background: var(--color-blue);
+  color: #fff;
+  background: #2196f3;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: 0px;
@@ -256,7 +241,7 @@ ul {
   height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  background-color: var(--background-color-primary);
+  background-color: #ffffff;
 }
 
 .modal__square {
@@ -266,8 +251,8 @@ ul {
   left: 4px;
   width: 16px;
   height: 15px;
-  background-color: var(--color-white);
-  border: 2px solid var(--color-black);
+  background-color: #fff;
+  border: 2px solid #000000;
 }
 
 .portfolio__button {
@@ -277,9 +262,9 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  background: var(--background-color-secondary);
+  background: #f5f4fa;
   border-radius: 4px;
-  border: var(--background-color-secondary);
+  border: #f5f4fa;
   -webkit-transition-duration: var(--t-duration);
           transition-duration: var(--t-duration);
   -webkit-transition-timing-function: var(--t-timing-function);
@@ -290,14 +275,14 @@ ul {
   transition-property: color, background-color, box-shadow, -webkit-box-shadow;
 }
 .portfolio__button:hover {
-  color: var(--color-white);
-  background: var(--color-blue);
+  color: #fff;
+  background: #2196f3;
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .portfolio__button:focus {
-  color: var(--color-white);
-  background: var(--color-blue);
+  color: #fff;
+  background: #2196f3;
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -329,7 +314,7 @@ ul {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
-  color: var(--color-dark-grey);
+  color: #757575;
   resize: none;
 }
 
@@ -337,8 +322,8 @@ ul {
   padding-left: 15px;
   width: 358px;
   height: 50px;
-  color: var(--color-white);
-  background-color: var(--background-color-footer);
+  color: #fff;
+  background-color: #2f303a;
   border: 1px solid rgba(255, 255, 255, 0.3);
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -351,10 +336,10 @@ ul {
   transition-property: border-color;
 }
 .card-footer__input:hover {
-  border-color: var(--color-blue);
+  border-color: #2196f3;
 }
 .card-footer__input:focus-within {
-  border: 3px solid var(--color-blue);
+  border: 3px solid #2196f3;
   outline: none;
 }
 
@@ -369,30 +354,30 @@ ul {
           transition-timing-function: var(--t-timing-function);
 }
 .modal__input-group:hover {
-  fill: var(--color-blue);
-  border-color: var(--color-blue);
+  fill: #2196f3;
+  border-color: #2196f3;
 }
 .modal__input-group:focus {
-  fill: var(--color-blue);
-  border-color: var(--color-blue);
+  fill: #2196f3;
+  border-color: #2196f3;
 }
 .modal__input-group:focus-within {
-  fill: var(--color-blue);
+  fill: #2196f3;
 }
 
 .modal__input-group-comment {
   position: relative;
 }
 .modal__input-group-comment:hover {
-  fill: var(--color-blue);
-  border-color: var(--color-blue);
+  fill: #2196f3;
+  border-color: #2196f3;
 }
 .modal__input-group-comment:focus {
-  fill: var(--color-blue);
-  border-color: var(--color-blue);
+  fill: #2196f3;
+  border-color: #2196f3;
 }
 .modal__input-group-comment:focus-within {
-  fill: var(--color-blue);
+  fill: #2196f3;
 }
 
 .modal__input-icon {
@@ -413,7 +398,7 @@ ul {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   resize: none;
-  outline-color: var(--color-blue);
+  outline-color: #2196f3;
   -webkit-transition-property: border-color;
   transition-property: border-color;
   -webkit-transition-duration: var(--t-duration);
@@ -422,7 +407,7 @@ ul {
           transition-timing-function: var(--t-timing-function);
 }
 .modal__input-details:hover {
-  border-color: var(--color-blue);
+  border-color: #2196f3;
 }
 
 .single-line-input {
@@ -449,8 +434,8 @@ textarea[id=comment].modal__input-details::-webkit-input-placeholder {
 }
 .modal__checkbox:checked + span svg {
   z-index: 5;
-  fill: var(--color-blue);
-  stroke: var(--color-blue);
+  fill: #2196f3;
+  stroke: #2196f3;
   stroke-width: 2px;
 }
 
@@ -486,7 +471,7 @@ textarea[id=comment].modal__input-details::-webkit-input-placeholder {
 .list-strengths__body-icon {
   margin-bottom: 30px;
   padding: 25px 100px;
-  background-color: var(--background-color-secondary);
+  background-color: #f5f4fa;
 }
 
 .list-strengths__icon {
@@ -574,7 +559,7 @@ textarea[id=comment].modal__input-details::-webkit-input-placeholder {
   height: 4px;
   top: 45px;
   left: 0px;
-  background: var(--background-color-button-active);
+  background: #2196f3;
   border-radius: 2px;
 }
 
@@ -616,9 +601,9 @@ textarea[id=comment].modal__input-details::-webkit-input-placeholder {
           align-items: center;
   width: 44px;
   height: 44px;
-  background-color: var(--background-color-primary);
+  background-color: #ffffff;
   border-radius: 50%;
-  fill: var(--background-color-button-inactive);
+  fill: #afb1b8;
   -webkit-transition-duration: var(--t-duration);
           transition-duration: var(--t-duration);
   -webkit-transition-timing-function: var(--t-timing-function);
@@ -627,12 +612,12 @@ textarea[id=comment].modal__input-details::-webkit-input-placeholder {
   transition-property: fill, background-color;
 }
 .card-team__links:hover {
-  background-color: var(--background-color-button-active);
-  fill: var(--background-color-primary);
+  background-color: #2196f3;
+  fill: #ffffff;
 }
 .card-team__links:focus {
-  background-color: var(--background-color-button-active);
-  fill: var(--background-color-primary);
+  background-color: #2196f3;
+  fill: #ffffff;
 }
 
 .card-clients__link {
@@ -650,9 +635,9 @@ textarea[id=comment].modal__input-details::-webkit-input-placeholder {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 4px;
-  background-color: var(--background-color-primary);
-  border: 1px solid var(--color-grey);
-  fill: var(--background-color-button-inactive);
+  background-color: #ffffff;
+  border: 1px solid #afb1b8;
+  fill: #afb1b8;
   -webkit-transition-duration: var(--t-duration);
           transition-duration: var(--t-duration);
   -webkit-transition-timing-function: var(--t-timing-function);
@@ -661,12 +646,12 @@ textarea[id=comment].modal__input-details::-webkit-input-placeholder {
   transition-property: fill, border;
 }
 .card-clients__link:hover {
-  border: 1px solid var(--color-blue);
-  fill: var(--color-blue);
+  border: 1px solid #2196f3;
+  fill: #2196f3;
 }
 .card-clients__link:focus {
-  border: 1px solid var(--color-blue);
-  fill: var(--color-blue);
+  border: 1px solid #2196f3;
+  fill: #2196f3;
 }
 
 .card-footer__social-links {
@@ -681,9 +666,9 @@ textarea[id=comment].modal__input-details::-webkit-input-placeholder {
           align-items: center;
   width: 44px;
   height: 44px;
-  background-color: var(--background-color-icon-footer);
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  fill: var(--background-color-primary);
+  fill: #ffffff;
   -webkit-transition-duration: var(--t-duration);
           transition-duration: var(--t-duration);
   -webkit-transition-timing-function: var(--t-timing-function);
@@ -692,10 +677,10 @@ textarea[id=comment].modal__input-details::-webkit-input-placeholder {
   transition-property: background-color;
 }
 .card-footer__social-links:hover {
-  background-color: var(--background-color-button-active);
+  background-color: #2196f3;
 }
 .card-footer__social-links:hover:focus {
-  background-color: var(--background-color-button-active);
+  background-color: #2196f3;
 }
 
 .heading {
@@ -714,19 +699,18 @@ textarea[id=comment].modal__input-details::-webkit-input-placeholder {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--background-color-primary);
+  color: #ffffff;
   text-align: center;
 }
 
 .modal__heading {
   margin-bottom: 12px;
   display: block;
-  /* background-color: coral; */
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
-  color: var(--color-dark);
+  color: #212121;
 }
 
 .card-team__title {
@@ -750,7 +734,7 @@ textarea[id=comment].modal__input-details::-webkit-input-placeholder {
 .card-team__subtitle {
   margin-top: 10px;
   padding-bottom: 30px;
-  color: var(--color-dark-grey);
+  color: #757575;
 }
 
 .card-footer__subtitle {
@@ -758,7 +742,7 @@ textarea[id=comment].modal__input-details::-webkit-input-placeholder {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
-  color: var(--color-white);
+  color: #fff;
 }
 
 .portfolio__picture-subtitle {
@@ -766,13 +750,13 @@ textarea[id=comment].modal__input-details::-webkit-input-placeholder {
   z-index: 3;
   font-size: 16px;
   line-height: 1.87;
-  color: var(--color-dark-grey);
+  color: #757575;
 }
 
 .list-strengths__description {
   margin-top: 10px;
   line-height: 1.71;
-  color: var(--color-dark-grey);
+  color: #757575;
 }
 
 .modal__statement {
@@ -793,11 +777,11 @@ textarea[id=comment].modal__input-details::-webkit-input-placeholder {
           justify-content: center;
   font-weight: 400;
   line-height: 1.71;
-  color: var(--color-dark-grey);
+  color: #757575;
 }
 
 .modal__regulations-policy {
-  color: var(--color-blue);
+  color: #2196f3;
 }
 
 .card-footer__address {
@@ -816,7 +800,7 @@ textarea[id=comment].modal__input-details::-webkit-input-placeholder {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 2;
-  background: var(--background-color-primary);
+  background: #ffffff;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -847,7 +831,7 @@ textarea[id=comment].modal__input-details::-webkit-input-placeholder {
   display: flex;
   width: 370px;
   height: 70px;
-  background: var(--background-color-dimness);
+  background: rgba(47, 48, 58, 0.8);
   bottom: 0;
   font-weight: 700;
   line-height: 1.14;
@@ -858,7 +842,7 @@ textarea[id=comment].modal__input-details::-webkit-input-placeholder {
       -ms-flex-align: center;
           align-items: center;
   text-transform: uppercase;
-  color: var(--color-white);
+  color: #fff;
 }
 
 .portfolio__blue-box {
@@ -866,7 +850,7 @@ textarea[id=comment].modal__input-details::-webkit-input-placeholder {
   position: relative;
   width: 370px;
   height: 294px;
-  background-color: var(--background-color-button-active);
+  background-color: #2196f3;
   overflow: hidden;
 }
 
@@ -902,7 +886,7 @@ textarea[id=comment].modal__input-details::-webkit-input-placeholder {
   width: 301px;
   font-size: 18px;
   line-height: 1.56;
-  color: var(--color-white);
+  color: #fff;
 }
 
 .card-what-we-do__image {
@@ -912,7 +896,7 @@ textarea[id=comment].modal__input-details::-webkit-input-placeholder {
 
 .card-team__img {
   margin: 0 0 0 0;
-  background-color: var(--background-color-primary);
+  background-color: #ffffff;
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   border-radius: 0px 0px 4px 4px;
@@ -965,7 +949,7 @@ textarea[id=comment].modal__input-details::-webkit-input-placeholder {
 }
 
 .header-underline {
-  border-bottom: 1px solid var(--color-border);
+  border-bottom: 1px solid #ececec;
 }
 
 .pointer {
@@ -999,13 +983,13 @@ textarea[id=comment].modal__input-details::-webkit-input-placeholder {
 
 .card-team {
   text-align: center;
-  background-color: var(--background-color-secondary);
+  background-color: #f5f4fa;
 }
 
 .card-footer {
   padding-block: 60px;
   font-style: inherit;
-  background-color: var(--background-color-footer);
+  background-color: #2f303a;
 }
 
 .portfolio {

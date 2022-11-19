@@ -9,11 +9,11 @@
 }
 .logo--blue{
   @extend %logo;
-  color: var(--color-blue);
+  color: $color-blue;
 }
 .logo--black {
-   color: var(--color-black);
+   color: $color-black;
 }
 .logo--white {
-  color: var(--color-white);
+  color: $color-white;
 }

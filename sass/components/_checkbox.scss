@@ -2,8 +2,8 @@
     visibility: hidden;
     &:checked + span svg {
       z-index: 5;
-      fill: var(--color-blue);
-      stroke: var(--color-blue);
+      fill: $color-blue;
+      stroke: $color-blue;
       stroke-width: 2px;
     }
   }
